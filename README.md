@@ -13,27 +13,37 @@ _______________________________________________________________________________
 Открой папку проекта в PyCharm (File → Open → news_site_form).
 
 В терминале проекта создай и активируй виртуальное окружение:
-
+<br>
 bash
 Копировать
 Редактировать
+<br>
 python -m venv venv
+<br>
 source venv/bin/activate       # Linux/macOS
+<br>
 venv\Scripts\activate          # Windows
+<br>
 pip install django
+<br>
 Примени миграции базы данных:
-
+<br>
 bash
 Копировать
 Редактировать
+<br>
 python manage.py makemigrations
+<br>
 python manage.py migrate
+<br>
 Создай суперпользователя:
-
+<br>
 bash
 Копировать
 Редактировать
+<br>
 python manage.py createsuperuser
+<br>
 Запусти сервер:
 
 bash
